@@ -42,19 +42,24 @@
 
         <ul class="contact">
           <li class="item">
-            <a href="mailto:info@devstudio.com" class="contact-mail"
-              >info@devstudio.com</a
+            <a href="mailto:info@devstudio.com" class="contact-mail">
+              <svg class="icon-mail" width="16" height="12">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="item">
             <a href="tel:+380961111111" class="contact-tel"
-              >+38 096 111 11 11</a
+              ><svg class="icon-tel" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
       </div>
     </header>
-
     <main>
       <!-- Фільтри -->
       <section class="section">
@@ -78,7 +83,7 @@
 
           <ul class="project-list">
             <li class="project-card">
-              <a href="">
+              <a class="project-link" href="">
                 <img
                   src="./images/project1.jpg"
                   alt="Відкритий сайт на ноутбуці"
@@ -92,7 +97,7 @@
               </a>
             </li>
             <li class="project-card">
-              <a href="">
+              <a class="project-link" href="">
                 <img
                   src="./images/project2.jpg"
                   alt="Два чоловіка грають у бастекбол"
@@ -108,7 +113,7 @@
               </a>
             </li>
             <li class="project-card">
-              <a href="">
+              <a class="project-link" href="">
                 <img
                   src="./images/project3.jpg"
                   alt="Логотип ресторану"
@@ -124,7 +129,7 @@
               </a>
             </li>
             <li class="project-card">
-              <a href="">
+              <a class="project-link" href="">
                 <img
                   src="./images/project4.jpg"
                   alt="Бездротові накладні навушники"
@@ -140,7 +145,7 @@
               </a>
             </li>
             <li class="project-card">
-              <a href="">
+              <a class="project-link" href="">
                 <img
                   src="./images/project5.jpg"
                   alt="Дві картонні коробки"
@@ -156,7 +161,7 @@
               </a>
             </li>
             <li class="project-card">
-              <a href="">
+              <a class="project-link" href="">
                 <img
                   src="./images/project6.jpg"
                   alt="Монітор з відкритою сторінкою сайту"
@@ -172,7 +177,7 @@
               </a>
             </li>
             <li class="project-card">
-              <a href="">
+              <a class="project-link" href="">
                 <img
                   src="./images/project7.jpg"
                   alt="Відкритий журнал"
@@ -188,7 +193,7 @@
               </a>
             </li>
             <li class="project-card">
-              <a href="">
+              <a class="project-link" href="">
                 <img
                   src="./images/project8.jpg"
                   alt="Бірка в написом"
@@ -204,7 +209,7 @@
               </a>
             </li>
             <li class="project-card">
-              <a href="">
+              <a class="project-link" href="">
                 <img
                   src="./images/project9.jpg"
                   alt="Руки набирають текст на клавіатурі ноутбука"
@@ -225,35 +230,95 @@
     <!-- Футер -->
     <footer class="page-footer">
       <div class="container site-footer">
-        <a
-          class="logo-footer"
-          href="http://devstudio.com/"
-          target="_blank"
-          rel="noopener nofollow noreferrer"
-        >
-          <span class="logo-web">Web</span>Studio
-        </a>
+        <div class="footer-address">
+          <a
+            class="logo-footer"
+            href="http://devstudio.com/"
+            target="_blank"
+            rel="noopener nofollow noreferrer"
+          >
+            <span class="logo-web">Web</span>Studio
+          </a>
 
-        <address class="address-info">
-          <ul class="address-list">
-            <li class="studio-address">
-              <a
-                href="https://goo.gl/maps/Z3nNSveunDWHVFVc7"
-                target="_blank"
-                rel="noopener nofollow noreferrer"
-                >м. Київ, пр-т Лесі Українки, 2б</a
-              >
+          <address class="address-info">
+            <ul class="address-list">
+              <li class="studio-address">
+                <a
+                  href="https://goo.gl/maps/Z3nNSveunDWHVFVc7"
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                  >м. Київ, пр-т Лесі Українки, 2б</a
+                >
+              </li>
+              <li class="studio-mail">
+                <a class="mail" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="">
+                <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="footer-network">
+          <h2 class="footer-title">приєднуйтесь</h2>
+
+          <ul class="footer-list">
+            <li class="footer-link">
+              <a class="socials" href="https://www.instagram.com/">
+                <svg
+                  class="footer-icon"
+                  aria-label="іконка інстаграму"
+                  width="20"
+                  height="20"
+                >
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="studio-mail">
-              <a class="mail" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+
+            <li class="footer-link">
+              <a class="socials" href="https://twitter.com/">
+                <svg
+                  class="footer-icon"
+                  aria-label="іконка твіттуру"
+                  width="20"
+                  height="20"
+                >
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="">
-              <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
+
+            <li class="footer-link">
+              <a class="socials" href="https://www.facebook.com/">
+                <svg
+                  class="footer-icon"
+                  aria-label="іконка фейсбуку"
+                  width="20"
+                  height="20"
+                >
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer-link">
+              <a class="socials" href="https://www.linkedin.com/">
+                <svg
+                  class="footer-icon"
+                  aria-label="іконка линкедін"
+                  width="20"
+                  height="20"
+                >
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
